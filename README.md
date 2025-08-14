@@ -209,13 +209,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Educational content based on standard computer science curriculum
 - Color scheme and design principles from modern UI/UX practices
 
-## 📞 Contact
 
-- **Project Link**: [https://github.com/yourusername/sorting-algorithm-visualizer](https://github.com/yourusername/sorting-algorithm-visualizer)
-- **Live Demo**: [https://yourusername.github.io/sorting-algorithm-visualizer](https://yourusername.github.io/sorting-algorithm-visualizer)
-
----
 
 **Made with ❤️ for educational purposes**
 
 *This project helps students and developers understand sorting algorithms through interactive visualization.*
+
+![Screenshot](css/Screenshot%202025-08-14%20at%208.12.27%20PM.png)
