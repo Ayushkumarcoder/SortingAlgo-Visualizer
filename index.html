@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Sorting Algorithm Visualizer</h1>
+    </header>
+
+    <!-- Controls Section -->
+    <section class="controls">
+        <div class="algorithm-buttons">
+            <button class="algo-btn" data-algorithm="bubble">Bubble Sort</button>
+            <button class="algo-btn" data-algorithm="selection">Selection Sort</button>
+            <button class="algo-btn" data-algorithm="insertion">Insertion Sort</button>
+            <button class="algo-btn" data-algorithm="merge">Merge Sort</button>
+            <button class="algo-btn" data-algorithm="quick">Quick Sort</button>
+            <button class="algo-btn" data-algorithm="heap">Heap Sort</button>
+        </div>
+        <button id="generate-btn" class="generate-btn">Generate New Array</button>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Left Panel - Algorithm Information -->
+        <div class="left-panel">
+            <div class="info-card">
+                <h3>Algorithm Information</h3>
+                <div id="algorithm-info">
+                    <p>Select an algorithm to see detailed information about how it works.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Center Panel - Visualization -->
+        <div class="center-panel">
+            <div class="visualization-container">
+                <div id="array-container"></div>
+            </div>
+        </div>
+
+        <!-- Right Panel - Metrics -->
+        <div class="right-panel">
+            <div class="metrics-card">
+                <h3>Performance Metrics</h3>
+                <div class="metric">
+                    <span class="metric-label">Comparisons:</span>
+                    <span id="comparison-count" class="metric-value">0</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Swaps:</span>
+                    <span id="swap-count" class="metric-value">0</span>
+                </div>
+                <div class="color-legend">
+                    <h4>Color Legend</h4>
+                    <div class="color-item">
+                        <div class="color-box purple"></div>
+                        <span>Default/Unsorted</span>
+                    </div>
+                    <div class="color-item">
+                        <div class="color-box yellow"></div>
+                        <span>Comparing Elements</span>
+                    </div>
+                    <div class="color-item">
+                        <div class="color-box red"></div>
+                        <span>Swapping Elements</span>
+                    </div>
+                    <div class="color-item">
+                        <div class="color-box green"></div>
+                        <span>Sorted Elements</span>
+                    </div>
+                    <div class="color-item">
+                        <div class="color-box blue"></div>
+                        <span>Pivot Element (Quick Sort)</span>
+                    </div>
+                    <div class="color-item">
+                        <div class="color-box orange"></div>
+                        <span>Merge Elements (Merge Sort)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
