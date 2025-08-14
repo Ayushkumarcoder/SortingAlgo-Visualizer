@@ -11,6 +11,7 @@ A comprehensive, interactive web application that visualizes different sorting a
 This Sorting Algorithm Visualizer is an educational tool designed to help users understand how different sorting algorithms work by providing real-time visual representations of the sorting process. The application features a modern, responsive design with a dark theme and comprehensive educational content.
 
 ## ✨ Features
+![Screenshot](Screenshot 2025-08-14 at 8.12.27 PM.png)
 
 ### 🎨 **Interactive Visualization**
 - **Real-time sorting animations** with color-coded bars
